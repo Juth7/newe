@@ -36,7 +36,7 @@ export default function Home() {
         </button>
       </div>
       <Pagination page={page} limit={limit} setPage={setPage} />
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2  gap-6 mt-5 sm::grid-cols-2 ">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 mt-5 ">
         {pokemons?.map((pokemon) => (
           <PokemonCard
             key={pokemon.name}
